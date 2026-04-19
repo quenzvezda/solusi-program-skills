@@ -45,7 +45,7 @@ Engage in the selected mode using `ask_user`.
 
 ### Step 3: Synthesis & Actionable Next Steps
 Once the user says "done" or "generate output":
-1. **Summary:** Produce a high-detail `BRAINSTORM_SUMMARY.md`. This MUST include (no exceptions):
+1. **Summary:** Produce a high-detail summary file saved to `docs/brainstorming/YYYY-MM-DD-{short-title}.md`. This MUST include (no exceptions):
     - **Executive Summary:** The core concept decided upon.
     - **Architecture Diagrams:** At least one **Mermaid.js diagram** (e.g., `graph TD` or `sequenceDiagram`) visualizing the system flow, data model, or logic architecture. **This is mandatory even for non-technical brainstorms (use a flowchart).**
     - **Deep-Dive Sections:** Detailed analysis of each sub-topic.
